@@ -41,3 +41,42 @@ header nav a:houver {
     margin-bottom: 20px;
   }
  
+  .carousel {
+  position: relative;
+  max-width: 600px; /* ajuste o tamanho que quiser */
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.carousel-images img {
+  width: 100%;
+  display: none;
+  border-radius: 10px;
+}
+
+.carousel-images img.active {
+  display: block;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  user-select: none;
+}
+
+.carousel button.prev {
+  left: 10px;
+}
+
+.carousel button.next {
+  right: 10px;
+}
