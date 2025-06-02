@@ -1,0 +1,43 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+}
+
+header {
+ width: 100%;
+ background-color:#FEEDF2;
+ padding: 5px;
+ box-sizing: border-box;
+}
+
+.imagem-redonda {
+    width: 120px;       
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header nav {
+    float: right;
+    margin-top: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #D2042D ;
+    margin: 15px;
+}
+header nav a:houver {
+    color: #E11F4C
+}
+
+
+.boas-vindas {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    color: #DE3163;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+ 
