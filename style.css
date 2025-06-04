@@ -17,19 +17,20 @@ header {
     object-fit: cover;
 }
 
-header nav {
-    float: right;
-    margin-top: 30px;
-}
-
 header nav a {
     text-decoration: none;
-    color: #D2042D ;
+    color: #D2042D;
     margin: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: none; /* Mantém a capitalização natural do texto */
 }
-header nav a:houver {
-    color: #E11F4C
+
+header nav a:hover {
+    color: #E11F4C;
 }
+
 
 
 .boas-vindas {
@@ -514,3 +515,4 @@ section header h2 {
   line-height: 1.6;
   text-align: justify;
 }
+

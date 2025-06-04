@@ -4,15 +4,44 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Confeitaria Gabriela - Nossa História</title>
-
-  <!-- Fonte -->
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+ <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       background-color: #ffeef5;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .imagem-redonda {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #c2185b;
+      font-weight: bold;
+      font-family: 'Dancing Script', cursive;
+      font-size: 1.2em;
+    }
+
+    nav a:hover {
+      color: #a0154a;
     }
 
     .nossa-historia-section {
@@ -45,7 +74,6 @@
       text-align: justify;
     }
 
-    /* Cards Valores e Visão */
     h1 {
       font-family: 'Dancing Script', cursive;
       font-size: 2.5em;
@@ -58,7 +86,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      padding: 20px;
+      padding: 40px 20px;
       gap: 20px;
     }
 
@@ -92,7 +120,19 @@
     }
   </style>
 </head>
+
 <body>
+  <header>
+    <a href="index.html" title="Home">
+      <img src="imagem/site.jpg" alt="Banner" class="imagem-redonda" />
+    </a>
+    <nav>
+      <a href="index.html" title="Home">Home</a>
+      <a href="produtos.html" title="Produtos">Produtos</a>
+      <a href="sobre.html" title="Sobre">Sobre</a>
+      <a href="contato.html" title="Contato">Contato</a>
+    </nav>
+  </header>
 
   <section class="nossa-historia-section">
     <h2 class="titulo-centralizado">Conheça nossa história</h2>
@@ -136,6 +176,10 @@
       <p>Transformamos ingredientes simples em experiências memoráveis. Cada preparo leva amor e dedicação.</p>
     </div>
   </section>
-
+  <footer class="rodape">
+  <div class="conteudo-rodape">
+    <p>&copy; Confeitaria Gabriela 🍰<br>
+    Feito com carinho artesanal. Todos os direitos reservados.</p>
+</footer>
 </body>
 </html>
