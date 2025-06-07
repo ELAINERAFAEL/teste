@@ -9,25 +9,9 @@
 
   <style>
     body {
-      margin: 0;
+      margin:0 ;
       font-family: Arial, sans-serif;
       background-color: #ffeef5;
-    }
-
-    header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 10px 20px;
-      background-color: #ffffff;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-
-    .imagem-redonda {
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      object-fit: cover;
     }
 
     nav a {
@@ -50,6 +34,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin-top: 80px;
     }
 
     .titulo-centralizado {
@@ -122,17 +107,9 @@
 </head>
 
 <body>
-  <header>
-    <a href="index.html" title="Home">
-      <img src="imagem/site.jpg" alt="Banner" class="imagem-redonda" />
-    </a>
-    <nav>
-      <a href="index.html" title="Home">Home</a>
-      <a href="produtos.html" title="Produtos">Produtos</a>
-      <a href="sobre.html" title="Sobre">Sobre</a>
-      <a href="contato.html" title="Contato">Contato</a>
-    </nav>
-  </header>
+    <?php
+    include ('pages/header.php');
+    ?>
 
   <section class="nossa-historia-section">
     <h2 class="titulo-centralizado">Conheça nossa história</h2>
@@ -176,10 +153,8 @@
       <p>Transformamos ingredientes simples em experiências memoráveis. Cada preparo leva amor e dedicação.</p>
     </div>
   </section>
-  <footer class="rodape">
-  <div class="conteudo-rodape">
-    <p>&copy; Confeitaria Gabriela 🍰<br>
-    Feito com carinho artesanal. Todos os direitos reservados.</p>
-</footer>
+  <?php
+  include ('pages/footer.php')
+  ?>
 </body>
 </html>
