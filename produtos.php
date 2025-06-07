@@ -301,7 +301,9 @@
     color: #ffcee8;
   }
 </style>
-
+<?php
+include ('pages/footer.php')
+?>
 </body>
 
 </html>
