@@ -66,20 +66,20 @@
   <div class="card">
     <img src="imagem/download (5).jpg" alt="Doce 1">
     <h3>Bolo de Doce de Leite</h3>
-    <button>Encomendar</button>
+    <button onclick="window.location.href='contato.php'">Encomendar</button>
   </div>
 
   <div class="card">
     <img src="imagem/slk.jpg"Doce 2">
     <h3>Torta de Chocolate</h3>
-    <button>Encomendar</button>
+    <button onclick="window.location.href='contato.php'">Encomendar</button>
   </div>
 
-  <div class="card">
-    <img src="imagem/Receitas Sofisticadas de Doces Finos Para Fazer e Arrasar.jpg" alt="Doce 3">
-    <h3>Brigadeiros</h3>
-    <button>Encomendar</button>
-  </div>
+  <div class="card"> 
+  <img src="imagem/Receitas Sofisticadas de Doces Finos Para Fazer e Arrasar.jpg" alt="Doce 3">
+  <h3>Brigadeiros</h3>
+  <button onclick="window.location.href='contato.php'">Encomendar</button>
+</div>
 
 </section>
 
